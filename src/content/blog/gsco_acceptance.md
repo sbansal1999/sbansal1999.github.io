@@ -71,7 +71,7 @@ worked on fixing issues related to the Integrations provided by Zulip.
 
 All of this happened before the GSoC results were announced.
 
-## GSoC results
+## GSoC Results
 
 After all this I was selected as a GSoC contributor for Zulip. I was
 very happy to see my name on the list of accepted students. There was

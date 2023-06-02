@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Satyam Bansal",
   desc: "A blog in which I will share my experiences of various thing related to tech and life.",
   title: "Blog...",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "gsoc.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };

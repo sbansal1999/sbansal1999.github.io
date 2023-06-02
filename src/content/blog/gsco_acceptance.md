@@ -1,6 +1,6 @@
 ---
 author: Satyam Bansal
-pubDatetime: 2023-06-02T13:30:00Z
+pubDatetime: 2023-06-02T19:00:00
 title: My Journey as a Google Summer of Code (GSoC) Contributor for Zulip
 postSlug: journey-as-gsoc-contributor-for-zulip
 featured: true

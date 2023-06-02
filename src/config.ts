@@ -5,7 +5,8 @@ export const SITE: Site = {
   author: "Satyam Bansal",
   desc: "A blog in which I will share my experiences of various thing related to tech and life.",
   title: "Blog...",
-  ogImage: "gsoc.png",
+  ogImage:
+    "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-Vertical.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };

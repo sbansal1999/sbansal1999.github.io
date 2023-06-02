@@ -3,8 +3,8 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-My name is Satyam Bansal, and I am from Lucknow, Uttar Pradesh.
-Currently, I am pursuing a Masters of Computer Applications from the
+My name is Satyam Bansal. and I am from Lucknow, Uttar Pradesh.
+Currently, I am pursuing Masters of Computer Applications from the
 National Institute of Technology Karnataka, Surathkal.
 
 I am currently a Google Summer of Code 2023 contributor at

@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-My name is Satyam Bansal. and I am from Lucknow, Uttar Pradesh.
+My name is Satyam Bansal and I am from Lucknow, Uttar Pradesh.
 Currently, I am pursuing Masters of Computer Applications from the
 National Institute of Technology Karnataka, Surathkal.
 

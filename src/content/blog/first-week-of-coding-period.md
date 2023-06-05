@@ -25,7 +25,7 @@ challenges I faced and the lessons I learned along the way.
 
 ## The first week
 
-I had some issues figured out on which I could work.One of them was
+I had some issues figured out on which I could work. One of them was
 related to the [GitHub
 Integration](https://zulip.com/integrations/doc/github) and another
 was related to [GitLab

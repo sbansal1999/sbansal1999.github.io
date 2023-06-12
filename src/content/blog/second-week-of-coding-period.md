@@ -57,7 +57,7 @@ the same way. A 15 digit random number is generated and appended to
 the URL and we have a new video call link. Pretty simple, right?
 
 You can also have a look at the code that does this
-[here](https://github.com/zulip/zulip/blob/85681546ce5046f9663bf23358a5caae27d04493/web/src/compose.js#L691-L#693).
+[here](https://github.com/zulip/zulip/blob/85681546ce5046f9663bf23358a5caae27d04493/web/src/compose.js#L691-L693).
 Although there are other things in the code that might not be very
 straightforward. But I think you can get the idea.
 

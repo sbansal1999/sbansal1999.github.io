@@ -20,10 +20,14 @@ description: From first PR to the final evaluation, I'll talk about my journey t
 In this blog post, I will share my exciting experience as a
 contributor for Zulip in the [Google Summer of
 Code](https://summerofcode.withgoogle.com/) (GSoC) 2023 program. I'll
-talk about the selection process, the task of migrating their codebase
-from JavaScript to TypeScript, and the challenges I encountered and
-the valuable lessons I learned along the way. Join me as I recount my
-journey in this blog post.
+talk about the following things in this blog post:
+
+- Selection process of GSoC
+- The task of migrating Zulip's codebase from JavaScript to TypeScript
+- Challenges encountered during the migration
+- Valuable lessons I learned along the way
+
+Join me as I recount my journey in this blog post.
 
 ## Selecting the organization
 
@@ -54,22 +58,30 @@ think have helped me a lot.
 After the first PR, I started working on migrating other modules to
 TypeScript. It was during this process that I realized the presence of
 cyclic dependencies in the codebase. I started reading about what they
-are and how they can be resolved.
+are and how they can be resolved. Understanding the concept of cyclic
+dependencies is not very difficult, but resolving them is a non-trivial
+task. Sometimes [dependency
+injection](https://medium.com/software-ascending/circular-dependencies-in-dependency-injection-403b790daebb#:~:text=Dependency%20Injection%20is%20a%20way,be%20provided%20to%20your%20class.)
+can be used to resolve them, sometimes the code needs to be refactored
+to resolve them.
 
-So, after discussions with other contributors, it was decided that we
-should first focus on migrating modules that do not have any cyclic
-dependencies and address the cyclic dependencies later. After working
-on the migration for a month or so, I realized that I should also work
-on different modules of Zulip. Thus, I started focusing on UI and
-Integrations.
+After
+[discussions](https://chat.zulip.org/#narrow/stream/6-frontend/topic/typescript.20migration/near/1514527)
+with other contributors, it was decided that we should first focus on
+migrating modules that do not have any cyclic dependencies and address
+the cyclic dependencies later. After working on the migration for a
+month or so, I felt that working on just one direction was a bit
+boring and also it's always good to have multiple things to work on
+because every PR will go through a review cycle which can take some
+time so you certainly don't want to just sit around during that time.
+Thus, I started focusing on UI and Integrations.
 
 I found a bug related to the tooltips in the UI, which were not
 displayed properly. The tooltips were created using the `tippy.js`
 library. I had to explore the library and then fix the bug. After
-fixing this one, I started working on other UI-related issues. I also
-worked on fixing issues related to the Integrations provided by Zulip.
-
-All of this happened before the GSoC results were announced.
+fixing this one, I worked on bunch of issues related to UI and
+Integrations. All of this happened before the GSoC results were
+announced.
 
 ## GSoC Results
 

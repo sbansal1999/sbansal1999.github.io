@@ -17,23 +17,24 @@ description: "Blog post about my first week of coding period for GSoC 2023."
 
 ## Introduction
 
-Okay, so the coding period for GSoC 2023 has officially started.
-Nowadays, I am mostly working on improving the integrations provided
-by Zulip. This blog post will be a summary of the work I have done in
-the first week of the coding period. I will also talk about the
-challenges I faced and the lessons I learned along the way.
+The coding period for GSoC 2023 has officially started. Nowadays, I am
+mostly working on improving the integrations provided by Zulip. This
+blog post will be a summary of the work I have done in the first week
+of the coding period. I will also talk about the challenges I faced
+and the lessons I learned along the way.
 
 ## The first week
 
-I had some issues figured out on which I could work. One of them was
-related to the [GitHub
+I think I have worked with Zulip for almost 3 months so the coding
+period didn't felt like something different. I had some issues figured
+out on which I could work. One of them was related to the [GitHub
 Integration](https://zulip.com/integrations/doc/github) and another
 was related to [GitLab
 Integration](https://zulip.com/integrations/doc/gitlab). Apart from
 these, I also started working on creating a highly requested but small
-[feature](https://github.com/zulip/zulip/issues/12207) for Zulip. I
-think I have worked with Zulip for almost 3 months so the coding
-period didn't felt like something different.
+[feature](https://github.com/zulip/zulip/issues/12207) for Zulip which
+is about adding an option to add a link to an audio call -- right now
+through [Jitsi Meet](https://meet.jit.si/) -- to the chat.
 
 ## GitHub Integration
 
@@ -46,9 +47,29 @@ issue.
 I have been working on the GitHub integration for a while now. So, I
 was familiar with the codebase. I started by adding the fixtures for
 the events. Then, I had to modify the codebase to send a better
-message that included the labels added or removed. I also had to
-modify the codebase to allow end users to select the events for which
-they want to receive notifications. I have made the changes to [Pull
+message that included the labels added or removed. After some
+[discussion](https://chat.zulip.org/#narrow/stream/127-integrations/topic/.2325789/near/1583383)
+with the community members it was decided to do something so that the
+end-user can decide whether they want the notification for the issue
+labeled events or not.
+
+The way we provide the end-user with the choices is that they can add
+query params to the URL on the webhook mentioning the events for which
+they want to receive the notifications -- they can also exclude some
+events if they want.
+
+This is what the documentation says:
+
+```
+To filter the events that trigger the notifications, you can append either &only_events=["event_a","event_b"] or &exclude_events=["event_a","event_b"] (or both, with different events) to the URL with an arbitrary number of supported events.
+```
+
+On the flipside GitHub also provides filtering of events, but they do
+not provide that granular controls over the events that was required
+in this case. In their UI, the choice is to either get all events
+related to Issues or none.
+
+I have made the changes to [Pull
 Request](https://github.com/zulip/zulip/pull/25831) and I think it is
 ready for review. It should be merged soon! 🔥
 

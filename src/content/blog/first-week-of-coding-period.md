@@ -9,6 +9,7 @@ tags:
   - gsoc
   - zulip
   - open source
+  - coding period
 ogImage: ""
 description: "Blog post about my first week of coding period for GSoC 2023."
 ---

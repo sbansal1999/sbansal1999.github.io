@@ -172,6 +172,6 @@ of work and also learned a lot of new things. Still I think I can do
 better and I will try to do that in the coming weeks.
 
 Feel free to drop any suggestions either on my
-[Twitter](https://twitter.com/sbansal1999) or you can do it the school
-way by sending me an email at
+[Twitter](https://twitter.com/sbansal1999) or you can do it the old school
+way by sending me an mail at
 [sbansal1999@gmail.com](mailto:sbansal1999@gmail.com)

@@ -3,7 +3,7 @@ author: Satyam Bansal
 pubDatetime: 2023-06-05T01:00:00
 title: First Week of Coding Period | GSoC 2023
 postSlug: first-week-of-coding-period-gsoc-2023
-featured: true
+featured: false
 draft: false
 tags:
   - gsoc

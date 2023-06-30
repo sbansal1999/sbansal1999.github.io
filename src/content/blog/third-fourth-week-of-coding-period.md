@@ -20,9 +20,8 @@ For half a week or so I was away from my laptop. So it kind of makes
 sense to write about the work I did in the third and fourth week of
 the coding period in a single blog post. I mostly worked on creating a
 modal that simplifes the process that users have to go through when
-creating a webhook URL for a Zulip Integration. Also, some more issues
-related to GitHub integration were reported by the users on which I
-worked.
+creating a webhook URL for a Zulip Integration. Also, I worked on a
+couple of user reported issues in GitHub Integration.
 
 ## Simplifying the process of creating a webhook URL
 
@@ -67,8 +66,8 @@ was able to create the template fairly quickly.
 box](/assets/generate_url_integration_design.png)
 
 Some changes in the backend were also required to make this work as
-the list of integrations is required for the `Integration` field. We
-at Zulip also allows filtering of events for an integration. So some
+the list of integrations is required for the `Integration` field.
+Zulip also allows filtering of events for an integration. So some
 further changes to the backend were required to get this done. I
 [discussed](https://chat.zulip.org/#narrow/stream/378-api-design/topic/integration.20display.20name/near/1598446)
 the changes with the community members and their suggestions were
@@ -113,8 +112,8 @@ off from the things that eat my time ~INSTAGRAM~. Also, spent a good
 amount of time watching the Ashes series. I am really enjoying it. 🏏
 
 I have also started triaging issues -- this is something that I have
-never done before. I was able to get amount of work done in the
-week. My mentor has also been very helpful and has been guiding me
+never done before. I was able to get amount of work done in the week.
+My mentor has also been very helpful and has been guiding me
 throughout the process. 💓
 
 Looking forward to have a great week ahead.

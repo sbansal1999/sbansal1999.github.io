@@ -3,7 +3,7 @@ author: Satyam Bansal
 pubDatetime: 2025-11-04T00:00:00
 title: GSoC Mentor Summit 2025
 postSlug: mentor-summit-2025
-featured: false
+featured: true
 draft: false
 tags:
   - gsoc
